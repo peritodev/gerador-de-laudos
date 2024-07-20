@@ -1,0 +1,25 @@
+header {
+    background-color: #003366; /* Azul royal */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+header h1 {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+}
+
+header a img {
+    width: 30px; /* Reduz o tamanho do ícone */
+    height: 30px; /* Reduz o tamanho do ícone */
+    margin-right: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}

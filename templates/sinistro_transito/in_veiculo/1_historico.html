@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Histórico do Veículo</title>
+</head>
+<body>
+    <h1>Histórico do Veículo</h1>
+    <form action="{{ url_for('sinistro_transito.historico_veiculo') }}" method="POST">
+        <label for="historico">Histórico:</label>
+        <textarea id="historico" name="historico" rows="10" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+</html>

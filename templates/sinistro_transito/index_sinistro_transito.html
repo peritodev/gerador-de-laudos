@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sinistro de Trânsito</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='images/images_gerais/home.svg') }}" alt="Home"></a>
+        <h1>Sinistro de Trânsito</h1>
+    </header>
+    <div class="container">
+        <div class="icon-container">
+            <a href="{{ url_for('sinistro_transito.in_veiculo.index') }}">
+                <img src="{{ url_for('static', filename='images/index_sinistro_transito/in_loco.svg') }}" alt="In Loco">
+                <p>in loco</p>
+            </a>
+        </div>
+        <div class="icon-container">
+            <a href="{{ url_for('sinistro_transito.in_veiculo.index') }}">
+                <img src="{{ url_for('static', filename='images/index_sinistro_transito/in_veiculo.svg') }}" alt="Apenas Veículos">
+                <p>só veículos</p>
+            </a>
+        </div>
+        <div class="icon-container">
+            <a href="{{ url_for('sinistro_transito.in_veiculo.index') }}">
+                <img src="{{ url_for('static', filename='images/index_sinistro_transito/in_video.svg') }}" alt="Apenas Vídeos">
+                <p>só vídeos</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

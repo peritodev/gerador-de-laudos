@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Local de Sinistro de Trânsito</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/sinistro_transito.css') }}">
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('sinistro_transito') }}"><img src="{{ url_for('static', filename='images/images_gerais/home.svg') }}" alt="Home"></a>
+        <h1>Local de Sinistro de Trânsito</h1>
+    </header>
+    <div class="container">
+        <div class="sidebar-in-loco">
+            <ul>
+                <li><a href="{{ url_for('historico') }}" class="{% if request.endpoint == 'historico' %}active{% endif %}">HISTÓRICO</a></li>
+                <li><a href="{{ url_for('consideracoes_iniciais') }}" class="{% if request.endpoint == 'consideracoes_iniciais' %}active{% endif %}">CONSIDERAÇÕES INICIAIS</a></li>
+                <li><a href="{{ url_for('caracteristicas') }}" class="{% if request.endpoint == 'caracteristicas' %}active{% endif %}">CARACTERÍSTICAS</a></li>
+                <li><a href="{{ url_for('exames_periciais') }}" class="{% if request.endpoint == 'exames_periciais' %}active{% endif %}">EXAMES PERICIAIS</a></li>
+                <li><a href="{{ url_for('video_dinamica_estimativa') }}" class="{% if request.endpoint == 'video_dinamica_estimativa' %}active{% endif %}">ANALISE DE VÍDEO</a></li>
+                <li><a href="{{ url_for('estimativa_velocidade_vestigios_local') }}" class="{% if request.endpoint == 'estimativa_velocidade_vestigios_local' %}active{% endif %}">ESTIMATIVA DE VELOCIDADE COM VESTÍGIOS DO LOCAL</a></li>
+                <li><a href="{{ url_for('consideracoes_tecnicas_conclusao') }}" class="{% if request.endpoint == 'consideracoes_tecnicas_conclusao' %}active{% endif %}">CONSIDERAÇÕES TÉCNICAS E CONCLUSÃO</a></li>
+                <li><a href="{{ url_for('quesitos_respostas') }}" class="{% if request.endpoint == 'quesitos_respostas' %}active{% endif %}">QUESITOS E RESPOSTAS</a></li>
+                <li><a href="{{ url_for('consideracoes_finais') }}" class="{% if request.endpoint == 'consideracoes_finais' %}active{% endif %}">CONSIDERAÇÕES FINAIS</a></li>
+            </ul>
+        </div>
+        <div class="content-in-loco">
+            <!-- Conteúdo dinâmico aqui -->
+        </div>
+    </div>
+</body>
+</html>

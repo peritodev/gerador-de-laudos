@@ -1,0 +1,62 @@
+/* Container principal */
+.container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para a barra lateral e botões */
+.sidebar-in-loco, .sidebar-in-veiculo {
+    background-color: #003366; /* Azul royal */
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    height: 100vh; /* Altura total da janela */
+    display: flex;
+    flex-direction: column;
+    position: fixed; /* Fixar na esquerda */
+    overflow-y: auto; /* Barra de rolagem vertical */
+}
+
+.sidebar-in-loco ul, .sidebar-in-veiculo ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinhar os botões no início */
+}
+
+.sidebar-in-loco ul li, .sidebar-in-veiculo ul li {
+    flex: none;
+}
+
+.sidebar-in-loco ul li a, .sidebar-in-veiculo ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px; /* Reduzir a altura dos botões */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px; /* Reduzir o tamanho da fonte */
+    text-align: center; /* Centralizar o texto */
+    border-bottom: 1px solid #003366;
+    padding: 10px;
+    box-sizing: border-box; /* Garantir que o padding seja incluído no tamanho total do botão */
+}
+
+.sidebar-in-loco ul li a:hover, .sidebar-in-veiculo ul li a:hover {
+    background-color: #00509E; /* Efeito de hover */
+}
+
+.sidebar-in-loco ul li a.active, .sidebar-in-veiculo ul li a.active {
+    background-color: #002244; /* Azul mais escuro para o item ativo */
+}
+
+/* Ajuste do container principal para não ficar atrás da barra lateral */
+.content-in-loco, .content-in-veiculo {
+    margin-left: 200px; /* Espaço para a barra lateral */
+    padding: 20px;
+}

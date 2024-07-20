@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Laudos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Gerador de Laudos</h1>
+    </header>
+    <div class="container">
+        <div class="icon-container">
+            <a href="{{ url_for('routes.sinistro_transito_index') }}">
+                <img src="{{ url_for('static', filename='images/index_home/sinistro_transito.svg') }}" alt="Sinistro de Trânsito">
+                <p>Sinistro de Trânsito</p>
+            </a>
+        </div>
+
+        <div class="icon-container">
+            <a href="#">
+                <img src="{{ url_for('static', filename='images/index_home/crime_pessoa.svg') }}" alt="Crime contra a Pessoa">
+                <p>Crime contra a Pessoa</p>
+            </a>
+        </div>
+        <div class="icon-container">
+            <a href="#">
+                <img src="{{ url_for('static', filename='images/index_home/crime_patrimonio.svg') }}" alt="Crime contra o Patrimônio">
+                <p>Crime contra o Patrimônio</p>
+            </a>
+        </div>
+        <div class="icon-container">
+            <a href="#">
+                <img src="{{ url_for('static', filename='images/index_home/incendio.svg') }}" alt="Incêndio">
+                <p>Incêndio</p>
+            </a>
+        </div>
+        <div class="icon-container">
+            <a href="#">
+                <img src="{{ url_for('static', filename='images/index_home/engenharia.svg') }}" alt="Engenharia">
+                <p>Engenharia</p>
+            </a>
+        </div>
+        <div class="icon-container">
+            <a href="#">
+                <img src="{{ url_for('static', filename='images/index_home/adulteracao_veicular.svg') }}" alt="Adulteração Veicular">
+                <p>Adulteração Veicular</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

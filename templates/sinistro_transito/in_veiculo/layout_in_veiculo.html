@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exames em Veículos Removidos do Local do Sinistro de Trânsito</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/sinistro_transito.css') }}">
+</head>
+<body>
+    <header>
+        <a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='images/images_gerais/home.svg') }}" alt="Home"></a>
+        <h1>Exames em Veículos Removidos do Local do Sinistro de Trânsito</h1>
+    </header>
+    <div class="container">
+        <div class="sidebar-in-veiculo">
+            <ul>
+                <li><a href="{{ url_for('routes.in_veiculo.historico_veiculo') }}" class="{% if request.endpoint == 'routes.in_veiculo.historico_veiculo' %}active{% endif %}">HISTÓRICO</a></li>
+                <li><a href="{{ url_for('routes.in_veiculo.consideracoes_iniciais_veiculo') }}" class="{% if request.endpoint == 'routes.in_veiculo.consideracoes_iniciais_veiculo' %}active{% endif %}">CONSIDERAÇÕES INICIAIS</a></li>
+                <li><a href="{{ url_for('routes.in_veiculo.caracteristicas_veiculo') }}" class="{% if request.endpoint == 'routes.in_veiculo.caracteristicas_veiculo' %}active{% endif %}">CARACTERÍSTICAS</a></li>
+                <li><a href="{{ url_for('routes.in_veiculo.exames_periciais_veiculo') }}" class="{% if request.endpoint == 'routes.in_veiculo.exames_periciais_veiculo' %}active{% endif %}">EXAMES PERICIAIS</a></li>
+                <li><a href="{{ url_for('routes.in_veiculo.consideracoes_tecnicas_conclusao_veiculo') }}" class="{% if request.endpoint == 'routes.in_veiculo.consideracoes_tecnicas_conclusao_veiculo' %}active{% endif %}">CONSIDERAÇÕES TÉCNICAS E CONCLUSÃO</a></li>
+                <li><a href="{{ url_for('routes.in_veiculo.quesitos_respostas_veiculo') }}" class="{% if request.endpoint == 'routes.in_veiculo.quesitos_respostas_veiculo' %}active{% endif %}">QUESITOS E RESPOSTAS</a></li>
+                <li><a href="{{ url_for('routes.in_veiculo.consideracoes_finais_veiculo') }}" class="{% if request.endpoint == 'routes.in_veiculo.consideracoes_finais_veiculo' %}active{% endif %}">CONSIDERAÇÕES FINAIS</a></li>
+            </ul>
+        </div>
+        <div class="content-in-veiculo">
+            <form action="{{ url_for('routes.in_veiculo.upload') }}" method="POST" enctype="multipart/form-data">
+                <label for="file">Escolha o arquivo ODT:</label>
+                <input type="file" id="file" name="file" accept=".odt">
+                <br>
+                <input type="submit" value="Upload">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

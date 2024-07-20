@@ -1,0 +1,16 @@
+# Python
+*.pyc
+__pycache__/
+
+# Environments
+.venv/
+env/
+venv/
+
+# PyCharm
+.idea/
+
+# Other
+*.log
+*.tmp
+*.bak

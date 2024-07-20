@@ -1,0 +1,28 @@
+/* Estilo dos ícones */
+.icon-container {
+    text-align: center;
+    margin: 10px;
+    width: 180px;
+    border: 2px solid #D3D3D3; /* Contorno cinza claro */
+    border-radius: 10px; /* Cantos arredondados */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease;
+}
+
+.icon-container:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.icon-container img {
+    width: 120px;
+    height: 120px;
+}
+
+.icon-container p {
+    margin-top: 10px;
+    margin-bottom: 0; /* Reduzir a margem inferior */
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    color: #000;
+}
