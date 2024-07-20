@@ -5,75 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb3c250-3114-46c2-9e75-ab765164e39b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gerador_laudos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrutura_projeto.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/adulteracao_veicular.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/crime_contra_patrimonio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/crime_contra_pessoa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/crime_contra_pessoa/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/engenharia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/incendio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/sinistro_transito/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/sinistro_transito/in_loco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/sinistro_transito/in_veiculo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/sinistro_transito/in_video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/sinistro_transito.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/images_gerais/conjunto_vazio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/images_gerais/home.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/images_gerais/hotme_cinzar_metalico.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/index_home/adulteracao_veicular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/index_home/crime_patrimonio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/index_home/crime_pessoa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/index_home/engenharia.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/index_home/incendio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/index_home/sinistro_transito.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/index_sinistro_transito/in_loco.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/index_sinistro_transito/in_veiculo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/index_sinistro_transito/in_video.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/adulteracao_veicular/index_adulteracao_veicular.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/crime_patrimonio/index_crime_patrimonio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/crime_pessoa/index_crime_pessoa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/engenharia/index_engenharia.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/incendio/index_incendio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index_home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_loco/1_historico.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_loco/2_consideracoes_iniciais.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_loco/3_caracteristicas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_loco/4_exames_periciais.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_loco/5_video_dinamica_estimativa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_loco/6_estimativa_velocidade_vestígios_local.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_loco/7_consideracoes_tecnicas_conclusao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_loco/8_quesitos_respostas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_loco/9_consideracoes_finais.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_loco/layout_in_loco.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_veiculo/1_historico.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_veiculo/2_consideracoes_iniciais.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_veiculo/3_caracteristicas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_veiculo/4_exames_periciais.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_veiculo/5_consideracoes_tecnicas_conclusao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_veiculo/6_quesitos_respostas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_veiculo/7_consideracoes_finais.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_veiculo/layout_in_veiculo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/in_video/layout_in_video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sinistro_transito/index_sinistro_transito.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/LAUDO_teste.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/document_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/upload_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
